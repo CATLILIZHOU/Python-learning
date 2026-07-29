@@ -1,0 +1,15 @@
+sweet_people = ['jim','humphry','jesus']
+print(sweet_people)
+print('humphry')
+del sweet_people[1]
+sweet_people.append('him')
+print(sweet_people)
+print(f"I'm happy to invite {sweet_people[1]} to my dinner")
+print(sweet_people)
+sweet_people.insert(2,'6')
+sweet_people.append('kobe')
+print(sweet_people)
+print(f"I'm happy to invite {sweet_people[1]} to my dinner")
+popped_people = sweet_people.pop(2)
+print(sweet_people)
+print(f"I'm soory to tell you,{popped_people}, I think maybe you need to fuck away")
